@@ -20,14 +20,14 @@
     }
 }
 
-.fade_in{
+[data_anim="fade in"]{
     animation-name: fadeInAnimation;
     animation-timing-function: ease-out;
     animation-duration: 2s;
     animation-fill-mode: both;
 }
 
-.float_in{
+[data_anim="float in"]{
     animation-name: floatInAnimation;
     animation-timing-function: ease-out;
     animation-duration: 1.5s;

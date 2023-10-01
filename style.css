@@ -13,10 +13,12 @@ h1{
 }
 
 h1.super_title{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
     font-size: calc(2em + 4vw);
 }
 
-p.float_in{
+p[data_anim="float in"]{
     animation-delay: 0.8s;
 }
 
@@ -28,7 +30,7 @@ p{
     margin-left: 1.5vw;
 }
 
-.warn.fade_in{
+.warn[data_anim="fade in"]{
     animation-delay: 3s;
 }
 

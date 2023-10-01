@@ -19,6 +19,8 @@ p{
 
 h1.super_title{
     font-size: calc(2em + 4vw);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
 }
 
 .warn {
