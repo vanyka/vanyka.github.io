@@ -1,0 +1,42 @@
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes floatInAnimation {
+    from {
+        opacity: 0;
+        top: 2vh;
+    }
+    to {
+        opacity: 1;
+        top: 0vh;
+    }
+}
+
+[data-anim="fade in"]{
+    animation-name: fadeInAnimation;
+    animation-timing-function: ease-out;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+[data-anim="float in"]{
+    position: relative;
+    animation-name: floatInAnimation;
+    animation-timing-function: ease-out;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+[data-anim-delay="1"]{
+    animation-delay: 0.8s;
+}
+
+[data-anim-delay="2"]{
+    animation-delay: 3s;
+}

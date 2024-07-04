@@ -1,5 +1,9 @@
+/* General tags */
 body{
     background-color:rgb(34, 36, 50);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 h1{
@@ -12,10 +16,6 @@ h1{
     text-shadow: #0000005a 2px 2px 5px;
 }
 
-h1.super_title{
-    font-size: calc(2em + 4vw);
-}
-
 p{
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
@@ -24,8 +24,15 @@ p{
     margin-left: 1.5vw;
 }
 
+/* Specialized tags */
+h1.super_title{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: calc(2em + 4vw);
+}
+
+/* Temporary setups */
 .warn{
-    margin-left: 2vw;
     font-weight: 100;
     color: rgb(111, 114, 141);
     user-select: none;

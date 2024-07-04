@@ -8,14 +8,17 @@
     <!-- LOADING FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="style.css">
-    <title>Vanyka's Page</title>
+    <!-- CSS -->
+    <link rel="stylesheet" media="screen" href="animations.css">
+    <link rel="stylesheet" media="screen" href="style.css">
+    <link rel="stylesheet" media="print" href="print.css">
+    <title>Ivan Alekseev</title>
 </head>
 <body>
-    <h1 class="super_title">Ivan Alekseev</h1>
-    <p>sofware developer and electronic music enthusiast</p>
-    <p class="warn">This website is still in development...</p>
+    <h1 class="super_title"><span data-anim="float in">Ivan Alekseev</span></h1>
+    <p><span data-anim="float in" data-anim-delay="1">sofware developer and electronic music enthusiast</span></p>
+    <p class="warn" data-anim="fade in" data-anim-delay="2">This website is still under development...</p>
 </body>
 </html>
